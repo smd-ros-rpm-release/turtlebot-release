@@ -1,0 +1,12 @@
+Source: ros-hydro-turtlebot
+Section: misc
+Priority: extra
+Maintainer: "Daniel Stonier <stonier@rnd.yujinrobot.com>, Tully Foote <tfoote@osrfoundation.org>, Michael Ferguson <mferguson@willowgarage.com>, Melonee Wise <mwise@willowgarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/turtlebot
+Standards-Version: 3.9.2
+
+Package: ros-hydro-turtlebot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-linux-hardware, ros-hydro-turtlebot-bringup, ros-hydro-turtlebot-description
+Description: The turtlebot meta package provides all the basic drivers for running and using a TurtleBot.
