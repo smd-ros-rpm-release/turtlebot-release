@@ -1,0 +1,12 @@
+Source: ros-hydro-turtlebot-bringup
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/turtlebot_bringup
+Standards-Version: 3.9.2
+
+Package: ros-hydro-turtlebot-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-create-description, ros-hydro-create-node, ros-hydro-depth-image-proc, ros-hydro-depthimage-to-laserscan, ros-hydro-diagnostic-aggregator, ros-hydro-image-proc, ros-hydro-kobuki-bumper2pc, ros-hydro-kobuki-description, ros-hydro-kobuki-node, ros-hydro-kobuki-safety-controller, ros-hydro-linux-hardware, ros-hydro-openni-camera, ros-hydro-robot-pose-ekf, ros-hydro-robot-state-publisher, ros-hydro-rocon-app-manager, ros-hydro-zeroconf-avahi
+Description: turtlebot_bringup provides roslaunch scripts for starting the TurtleBot base functionality.
