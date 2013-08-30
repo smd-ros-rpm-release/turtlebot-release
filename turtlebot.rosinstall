@@ -24,6 +24,11 @@
     version: hydro-devel
 
 - git:
+    uri: https://github.com/yujinrobot/kobuki_core.git
+    local-name: kobuki_core
+    version: hydro-devel
+
+- git:
     uri: https://github.com/yujinrobot/kobuki.git
     local-name: kobuki
     version: hydro-devel
@@ -43,6 +48,11 @@
 # Turtlebot stacks
 
 - git:
+    uri: https://github.com/turtlebot/turtlebot_msgs.git
+    local-name: turtlebot_msgs
+    version: hydro-devel
+
+- git:
     uri: https://github.com/turtlebot/turtlebot.git
     local-name: turtlebot
     version: hydro-devel
@@ -60,4 +70,11 @@
 - git:
     uri: https://github.com/turtlebot/turtlebot_viz.git
     local-name: turtlebot_viz
+    version: hydro-devel
+
+# Temporary stacks awaiting releases
+
+- git:
+    uri: https://github.com/ros-planning/navigation.git
+    local-name: navigation
     version: hydro-devel
