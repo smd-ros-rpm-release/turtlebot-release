@@ -1,0 +1,20 @@
+ros-hydro-linux-hardware (2.2.0-1quantal) quantal; urgency=high
+
+  * Changelogs at package level.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 28 Aug 2013 15:00:00 -0000
+
+ros-hydro-linux-hardware (2.1.1-1quantal) quantal; urgency=high
+
+
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 05 Aug 2013 15:00:00 -0000
+
+ros-hydro-linux-hardware (2.1.0-1quantal) quantal; urgency=high
+
+  * Catkinized
+  * Make laptop battery script work with the new /sys filesystem organization.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 14 Jul 2013 15:00:00 -0000
+
+
