@@ -1,3 +1,26 @@
+## turtlebot - 2.2.1-0
+
+User `snorri@snorriheim` released the packages in the `turtlebot` repository by running `/usr/bin/bloom-release --track hydro --rosdistro hydro turtlebot` on `Sat, 14 Sep 2013 02:02:22 -0000`
+
+These packages were released:
+- `linux_hardware`
+- `turtlebot`
+- `turtlebot_bringup`
+- `turtlebot_description`
+
+Version of package(s) in repository `turtlebot`:
+- rosdistro version: `2.2.0-1`
+- old version: `2.2.0-1`
+- new version: `2.2.1-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.21`
+- rosdistro version: `0.2.13`
+- vcstools version: `0.1.31`
+
+
 ## turtlebot - 2.2.0-1
 
 User `jorge@concert` released the packages in the `turtlebot` repository by running `/usr/bin/bloom-release --track hydro --rosdistro hydro turtlebot` on `Sat, 31 Aug 2013 09:43:57 -0000`
