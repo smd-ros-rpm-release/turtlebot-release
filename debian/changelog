@@ -1,0 +1,32 @@
+ros-hydro-turtlebot (2.2.4-0quantal) quantal; urgency=high
+
+
+
+ -- Daniel Stonier <stonier@rnd.yujinrobot.com>  Sun, 06 Apr 2014 15:00:00 -0000
+
+ros-hydro-turtlebot (2.2.1-0quantal) quantal; urgency=high
+
+  * CMake logic bugfixes.
+
+ -- Daniel Stonier <stonier@rnd.yujinrobot.com>  Fri, 13 Sep 2013 15:00:00 -0000
+
+ros-hydro-turtlebot (2.2.0-0quantal) quantal; urgency=high
+
+  * Changelogs at package level.
+  * Add eclipse project files.
+
+ -- Daniel Stonier <stonier@rnd.yujinrobot.com>  Wed, 28 Aug 2013 15:00:00 -0000
+
+ros-hydro-turtlebot (2.1.1-0quantal) quantal; urgency=high
+
+
+
+ -- Daniel Stonier <stonier@rnd.yujinrobot.com>  Mon, 05 Aug 2013 15:00:00 -0000
+
+ros-hydro-turtlebot (2.1.0-0quantal) quantal; urgency=high
+
+  * Remove obsolete turtlebot_app_manager, as on Hydro we use rocon_app_manager
+
+ -- Daniel Stonier <stonier@rnd.yujinrobot.com>  Sun, 14 Jul 2013 15:00:00 -0000
+
+
