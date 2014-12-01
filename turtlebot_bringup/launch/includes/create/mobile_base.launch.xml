@@ -4,11 +4,13 @@
   TODO: redirect cmd_vel_mux/output to wherever create base is listening.
  -->
 <launch>
+  <arg name="serialport"/>
+  
   <!-- Turtlebot Driver -->
   <node pkg="create_node" type="turtlebot_node.py" name="turtlebot_node" respawn="true" args="--respawnable">
     <param name="bonus" value="false" />
     <param name="update_rate" value="30.0" />
-    <param name="port" value="/dev/ttyUSB0" />
+    <param name="port" value="$(arg serialport)" />
     <remap from="cmd_vel" to="mobile_base/commands/velocity" />
     <remap from="turtlebot_node/sensor_state" to="mobile_base/sensors/core" />
     <remap from="imu/data" to="mobile_base/sensors/imu_data" />
@@ -17,6 +19,11 @@
 
   <!-- Enable breaker 1 for the kinect -->
   <node pkg="create_node" type="kinect_breaker_enabler.py" name="kinect_breaker_enabler"/>
+
+  <!-- Load create and gyro calibration  -->
+  <node pkg="create_node" type="load_calib.py" name="create_load_calibration">
+    <remap from="cmd_vel" to="mobile_base/commands/velocity" />
+  </node>
 
   <!-- The odometry estimator -->
   <node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf">

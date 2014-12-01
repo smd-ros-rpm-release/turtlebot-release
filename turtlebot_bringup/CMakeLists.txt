@@ -5,21 +5,15 @@ find_package(catkin REQUIRED COMPONENTS)
 
 catkin_package()
 
+catkin_add_env_hooks(25.turtlebot SHELLS sh DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/env-hooks)
+
 install(
     PROGRAMS
       scripts/turtlebot_addr.py
       DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
-install(DIRECTORY apps
-        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-)
-
 install(DIRECTORY launch
-        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-)
-
-install(DIRECTORY concert
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 

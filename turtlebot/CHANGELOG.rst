@@ -2,10 +2,13 @@
 Changelog for package turtlebot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.5 (2014-05-23)
+2.3.0 (2014-11-30)
 ------------------
+* migrate linux_hardware as linux_peripheral_interfaces repo
+* adds turtlebot_capabilities package and related changes
+* Contributors: Jihoon Lee, Marcus Liebhardt
 
-2.2.4 (2014-04-07)
+2.2.2 (2013-10-14)
 ------------------
 
 2.2.1 (2013-09-14)
